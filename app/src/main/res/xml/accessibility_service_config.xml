@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault|flagReportViewIds|flagRetrieveInteractiveWindows|flagRequestEnhancedWebAccessibility"
+    android:canPerformGestures="true"
+    android:canRetrieveWindowContent="true"
+    android:isAccessibilityTool="true"
+    android:notificationTimeout="100" />
+
+    <!--    android:accessibilityFlags="flagDefault|flagRequestTouchExplorationMode"
+    android:canRequestTouchExplorationMode="true"
+
+    터치 탐색 모드 : onAccessibilityEvent()에서 event를 통해 사용자 터치 여부를 인식하려면 해당 설정을 추가해야하는데
+    터치 탐색 모드를 활성화하면 접근성 서비스가 활성화되는 동안에는 더블탭 해야 터치 먹음
+    -->
+    <!--    android:canRequestTouchExplorationMode="true"-->
